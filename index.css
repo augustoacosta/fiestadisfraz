@@ -1,0 +1,223 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.portada {
+    background-image: url("fdd.jpg");
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.portada-opacidad {
+    width: 100%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+.portada h1 {
+    font-size: 5em;
+    color: white;
+    z-index: 2;
+}
+
+.menu {
+    background-color: rgb(158, 197, 158, 0.8);
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+.navegador {
+    justify-content: flex-end;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+
+.navegador li {
+    margin: 10px;
+    color: white;
+    font-size: 1.1em;
+}
+
+.portada-video {
+    background-image: url("fdd2.jpg");
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.portada-opacidad2 {
+    width: 100%;
+    height: 55%;
+    background-color: rgba(0, 240, 179, 0.527);
+    position: absolute;
+}
+
+.video {
+    z-index: 2;
+    display: flex;
+    background-size: cover;
+    position: absolute;
+}
+
+.quienes-somos {
+    background-color: rgb(25, 27, 29);
+    display: flex;
+}
+
+.quienes-somos p {
+    margin-top: 100px;
+    padding: 20px;
+    width: 300%;
+    height: 100%;
+    color: white;
+    font-size: 2em;
+}
+
+.comida {
+    background-color: rosybrown;
+    display: flex;
+}
+
+.comida p {
+    text-align: end;
+    margin-top: 100px;
+    padding: 10px;
+    width: 80%;
+    height: 100%;
+    color: white;
+    font-size: 2em;
+}
+
+.espacio-verde {
+    background-color: rgb(12, 116, 134);
+    display: flex;
+}
+
+.espacio-verde p {
+    margin-top: 100px;
+    padding: 10px;
+    width: 200%;
+    height: 100%;
+    color: white;
+    font-size: 2em;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.card-contacto {
+    background-color: rgb(155, 82, 165);
+    width: 40%;
+    border-radius: 20px;
+    padding: 30px;
+    -webkit-box-shadow: 0px 2px 21px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 21px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 21px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card-contacto h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-input {
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-input input {
+    width: 80%;
+}
+
+.container-btn {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-icons i {
+    color: white;
+    font-size: 2em;
+    margin: 0px 10px;
+}
+
+.icon-facebook:hover {
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.icon-twitter:hover {
+    color: #1da1f2;
+    cursor: pointer;
+}
+
+.icon-instagram:hover {
+    color: #5851db;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navegador {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navegador li {
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    color: white;
+    font-size: 1.1em;
+}
+
+.navegador li:hover {
+    color: rgb(3, 48, 27);
+    cursor: pointer;
+}
+
+.logo {
+    right: 1400px;
+    display: flex;
+    background-size: cover;
+    position: relative;
+}
